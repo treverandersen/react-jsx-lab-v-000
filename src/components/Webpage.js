@@ -1,11 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-class Webpage extends React.component {
+class Webpage extends React.Component {
   render() {
     return (
-      <h1>"The world's coolest webpage"</h1>
-      <FillerText />
-      <FillerText />
+      <div className="webpage">
+        <h1>The worlds coolest webpage</h1>
+        <FillerText />
+        <FillerText />
+      </div>
     );
   }
 }
+
+export default Webpage;
